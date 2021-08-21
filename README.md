@@ -1,6 +1,6 @@
-# my-project
+# Canvas Confetti
 
-> A Vue.js project
+> A Vue.js project to display art
 
 ## Build Setup
 
