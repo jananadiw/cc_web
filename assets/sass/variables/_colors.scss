@@ -1,0 +1,15 @@
+// Brand Colors
+@use "sass:color";
+@use "sass:map";
+
+:root {
+    --background-color: #F9EDDF;
+  }
+  
+  $active-theme: (
+    'background': var(--background-color),
+  );
+  
+
+
+$background-color: map.get($active-theme, 'background');

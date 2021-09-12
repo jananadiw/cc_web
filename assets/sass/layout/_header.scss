@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    text-align: center;
+    display: block;
+    top: 0;
+    background: #F9EDDF; // TODO: use variables later
+    font-size: 65px;
+
+    &__logo {
+      margin-top:65px;
+      cursor: pointer;
+  
+      &__link {
+        text-transform:uppercase;
+        text-decoration: none;
+        color: #4E483E;
+    
+        &--active {
+          color: #D7CBBA
+        }
+      }
+      img {
+        width: 25%;
+      }
+    }
+  }
+  
+
+
+  @include media('<=tablet') {
+    .header {
+      height: 165px;
+      font-size: 45px;
+
+      &__logo {
+        margin-top:50px;
+        cursor: pointer;
+  
+        &__link {
+          text-decoration: none;
+          color: #4E483E; // TODO:  use variables later
+          cursor: pointer;
+      }
+
+      img {
+        width: 25%;
+      }
+    }
+  }
+}
+
