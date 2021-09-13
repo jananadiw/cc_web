@@ -2,9 +2,6 @@
 node_modules
 /dist
 
-# static content 
-/assets/images
-
 # local env files
 .env.local
 .env.*.local
