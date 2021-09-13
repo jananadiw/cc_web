@@ -2,7 +2,9 @@
 node_modules
 
 #Nuxt build
-.nuxt
+.nuxt/
+
+static/sw.js
 
 #Nuxt generate 
 dist
