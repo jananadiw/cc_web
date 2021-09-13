@@ -26,10 +26,11 @@
         color: #4E483E;
     
         &--active {
-          color: #D7CBBA
+          color: #D7CBBA;
         }
       }
     }
+
     a {
       text-decoration: none;
       color: #4E483E;
@@ -38,6 +39,10 @@
       transition: ease;
       color: #D7CBBA;
     }
+    a.nuxt-link-active {
+      color:#D7CBBA;
+    }
+
 @include media('<tablet') {
         .nav {
         display: flex;

@@ -1,6 +1,6 @@
-export const LayoutFooter = () => import('../../components/layout/Footer.vue' /* webpackChunkName: "components/layout-footer" */).then(c => wrapFunctional(c.default || c))
-export const LayoutHeader = () => import('../../components/layout/Header.vue' /* webpackChunkName: "components/layout-header" */).then(c => wrapFunctional(c.default || c))
-export const LayoutNavBar = () => import('../../components/layout/NavBar.vue' /* webpackChunkName: "components/layout-nav-bar" */).then(c => wrapFunctional(c.default || c))
+export { default as LayoutFooter } from '../../components/layout/Footer.vue'
+export { default as LayoutHeader } from '../../components/layout/Header.vue'
+export { default as LayoutNavBar } from '../../components/layout/NavBar.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

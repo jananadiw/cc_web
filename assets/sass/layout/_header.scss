@@ -7,22 +7,20 @@
     top: 0;
     background: #F9EDDF; // TODO: use variables later
     font-size: 65px;
+  }
 
-    &__logo {
-      margin-top:65px;
-      cursor: pointer;
+  .logo {
+    margin-top:65px;
+    cursor: pointer;
+    z-index: 999;
+
+    &__link {
+      text-transform:uppercase;
+      text-decoration: none;
+      color: #4E483E;
   
-      &__link {
-        text-transform:uppercase;
-        text-decoration: none;
-        color: #4E483E;
-    
-        &--active {
-          color: #D7CBBA
-        }
-      }
-      img {
-        width: 25%;
+      &--active {
+        color: #D7CBBA
       }
     }
   }
@@ -42,10 +40,6 @@
           text-decoration: none;
           color: #4E483E; // TODO:  use variables later
           cursor: pointer;
-      }
-
-      img {
-        width: 25%;
       }
     }
   }

@@ -6,7 +6,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Surf_Crowd.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text1</span>
+            <span>Surfers and others</span><br/>
           </div>
         </a>
       </div>
@@ -14,7 +14,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Guitarist.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text3</span>
+            <span>The Naked Guitarist</span>
           </div>
         </a>
       </div>
@@ -22,7 +22,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Fiji_From_Far.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text4</span>
+            <span>Fuji from afar</span>
           </div>
         </a>
       </div>
@@ -30,7 +30,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Forest.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text5</span>
+            <span>Trees and sunlight</span>
           </div>
         </a>
       </div>
@@ -38,7 +38,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/River_at_Sunset.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>Riverside sunset</span>
           </div>
         </a>
       </div>
@@ -46,7 +46,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Sunset_Kayaking.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>The Golden Kayaker</span>
           </div>
         </a>
       </div>
@@ -54,7 +54,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Seascape.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>Sparkling waves</span>
           </div>
         </a>
       </div>
@@ -62,7 +62,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/sunriseSurfer.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>first wave</span>
           </div>
         </a>
       </div>
@@ -70,7 +70,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Teal.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>Teal</span>
           </div>
         </a>
       </div>
@@ -78,7 +78,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Snowy_Arashiyama.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>Snowy Arashiyama</span>
           </div>
         </a>
       </div>
@@ -86,7 +86,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Water.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>Reading by the stillness</span>
           </div>
         </a>
       </div>
@@ -94,7 +94,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Sweet_Summer.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>Sweet Summer</span>
           </div>
         </a>
       </div>
@@ -102,7 +102,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Hug_Me.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>everyday hugs</span>
           </div>
         </a>
       </div>
@@ -110,7 +110,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/SunsetFishing.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>Fishmen at sunset</span>
           </div>
         </a>
       </div>
@@ -118,7 +118,7 @@
         <a href="#" class="gallery__link">
           <img src="~/assets/images/Climber.jpg" class="gallery__image" />
           <div class="gallery__overlay">
-            <span>Text6</span>
+            <span>Solo Steps</span>
           </div>
         </a>
       </div>
@@ -127,7 +127,7 @@
 </div>
 </template>
 <script lang="ts">
-import { Component, Vue } from 'nuxt-property-decorator';
+import { Component, Vue } from 'nuxt-property-decorator'
 
 @Component({})
 export default class Home extends Vue {

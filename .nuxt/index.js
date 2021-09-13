@@ -16,6 +16,7 @@ import nuxt_plugin_plugin_5c9b0c66 from 'nuxt_plugin_plugin_5c9b0c66' // Source:
 import nuxt_plugin_workbox_14ddce82 from 'nuxt_plugin_workbox_14ddce82' // Source: ./workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_c13d9e5c from 'nuxt_plugin_metaplugin_c13d9e5c' // Source: ./pwa/meta.plugin.js (mode: 'all')
 import nuxt_plugin_axios_8c699f3a from 'nuxt_plugin_axios_8c699f3a' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_image_b65ba544 from 'nuxt_plugin_image_b65ba544' // Source: ./image.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -65,7 +66,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Canvas Confetti","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"test-nuxt"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"test-nuxt"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"test-nuxt"},{"hid":"og:description","name":"og:description","property":"og:description","content":"## Build Setup"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.png"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.e4c8fe72.json","hid":"manifest"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
+    head: {"title":"Canvas Confetti","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.png"}],"style":[],"script":[]},
 
     router,
     nuxt: {
@@ -193,6 +194,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_axios_8c699f3a === 'function') {
     await nuxt_plugin_axios_8c699f3a(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_image_b65ba544 === 'function') {
+    await nuxt_plugin_image_b65ba544(app.context, inject)
   }
 
   // Lock enablePreview in context

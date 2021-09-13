@@ -3,7 +3,11 @@
 module.exports = {
   root: true,
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: 'babel-eslint',
+    // https://github.com/babel/babel-eslint/issues/662
+    "ecmaFeatures": {
+      "legacyDecorators": true
+    }
   },
   env: {
     browser: true,
