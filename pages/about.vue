@@ -16,14 +16,16 @@
     <p>Have questions? or advice for me? Find me from any of platforms below 🙇🏻‍♀️👇🏼 <p/>
       
   </section>
-  <v-spacer></v-spacer>
-  <section>
+  <section style="margin-top:16px;">
     <div>
       <span>
       <a href="https://www.instagram.com/canvas_confetti/?hl=en" target="_blank">
       <img width="32" src="~/assets/images/ig.png"/></a> &nbsp;
       <a href="https://github.com/plutach" target="_blank">
-      <img width="32" src="~/assets/images/github.png"/></a></span> 
+      <img width="32" src="~/assets/images/github.png"/></a> &nbsp;
+      <NuxtLink to="/resume" target="_blank">
+      <img width="32" src="~/assets/images/resume_alt.png"/></NuxtLink>
+      </span> 
     </div>
   </section>
 
