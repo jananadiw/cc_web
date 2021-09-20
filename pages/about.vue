@@ -23,8 +23,10 @@
       <img width="32" src="~/assets/images/ig.png"/></a> &nbsp;
       <a href="https://github.com/plutach" target="_blank">
       <img width="32" src="~/assets/images/github.png"/></a> &nbsp;
-      <NuxtLink to="/resume" target="_blank">
-      <img width="32" src="~/assets/images/resume_alt.png"/></NuxtLink>
+      <!-- <NuxtLink to="/resume" target="_blank">
+      <img width="32" src="~/assets/images/resume_alt.png"/></NuxtLink> -->
+      <a href="/Jananadi_Resume.pdf" target="_blank"><img width="32" src="~/assets/images/cv2.png"/></a> &nbsp;
+      <a href="/Jananadi_TechnicalPortfolio.pdf" target="_blank"><img width="32" src="~/assets/images/portfolio.png"/></a>
       </span> 
     </div>
   </section>
