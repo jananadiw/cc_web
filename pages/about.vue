@@ -13,7 +13,7 @@
     <p>I use watercolors, acrylic and oil paint. <br/>
     To display my art and share my journey, I developed this little site. 👩🏻‍💻 </p>
 
-    <p>Have questions? or advice for me? Find me from any of platforms below. Also see my resume and portfolio 🙇🏻‍♀️👇🏼 <p/>
+    <p>Have questions? or advice for me? Find me from any of platforms below. 🙇🏻‍♀️👇🏼 <p/>
       
   </section>
   <section style="margin-top:16px;">
