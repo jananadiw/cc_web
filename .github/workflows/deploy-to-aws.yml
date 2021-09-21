@@ -32,6 +32,7 @@ jobs:
         run: | 
           yarn
           yarn build
+          yarn generate
 
       - name : S3 Sync
         uses: jakejarvis/s3-sync-action@v0.5.1
@@ -47,7 +48,7 @@ jobs:
       - name: Invalidate CloudFront
         uses: chetan/invalidate-cloudfront-action@v1.3
         env: 
-          DESTRIBUTION: ${{secret.DESTRIBUTION}}
+          DISTRIBUTION: ${{secret.DISTRIBUTION}}
           PATHS: '/*'
           AWS_ACCESS_KEY_ID: ${{secrets.AWS_ACCESS_KEY_ID}}
           AWS_SECRET_ACCESS_KEY: ${{secrets.AWS_SECRET_ACCESS_KEY}}
