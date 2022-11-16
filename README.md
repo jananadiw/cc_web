@@ -1,6 +1,7 @@
 
 # Canvas Confetti
 [![Actions Status](https://github.com/plutach/cc_web/workflows/Deploy%20to%20AWS/badge.svg)](https://github.com/plutach/cc_web/actions)
+[![Package - nuxt](https://img.shields.io/github/package-json/dependency-version/plutach/cc_web/nuxt?color=blue)](https://www.npmjs.com/package/nuxt)
 
 > An [artwork portfolio website](https://www.canvasconfetti.com) built with NuxtJs.
 
