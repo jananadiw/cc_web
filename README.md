@@ -1,4 +1,9 @@
-# test-nuxt
+
+# Canvas Confetti
+[![Actions Status](https://github.com/plutach/cc_web/workflows/deploy-to-aws/badge.svg)](https://github.com/plutach/cc_web/actions)
+
+
+> An artwork portfolio website built with NuxtJs.
 
 ## Build Setup
 
