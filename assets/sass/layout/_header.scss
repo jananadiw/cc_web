@@ -5,14 +5,16 @@
     text-align: center;
     display: block;
     top: 0;
-    background: #F9EDDF; // TODO: use variables later
+    // background: #F9EDDF; // TODO: use variables later
+    background: #FFFF; // TODO: use variables later
     font-size: 65px;
-  }
 
-  .logo {
+  &__logo {
     margin-top:65px;
     cursor: pointer;
     z-index: 999;
+    width: 30vw;
+  }
 
     &__link {
       text-transform:uppercase;
@@ -33,8 +35,8 @@
       font-size: 45px;
 
       &__logo {
-        margin-top:50px;
         cursor: pointer;
+        width: 80vw;
   
         &__link {
           text-decoration: none;
