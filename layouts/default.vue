@@ -1,9 +1,7 @@
 <template>
   <div>
     <Header />
-    <slot />
+    <Nuxt />
+    <Footer />
   </div>
 </template>
-
-<script lang="ts">
-</script>

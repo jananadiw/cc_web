@@ -23,8 +23,8 @@
       <img width="32" src="~/assets/images/ig.png"/></a> &nbsp;
       <a href="https://github.com/plutach" target="_blank">
       <img width="32" src="~/assets/images/github.png"/></a> &nbsp;
-      <a href="/Jananadi_Resume.pdf" target="_blank"><img width="32" src="~/assets/images/cv2.png"/></a> &nbsp;
-      <a href="/Jananadi_TechnicalPortfolio.pdf" target="_blank"><img width="32" src="~/assets/images/portfolio.png"/></a>
+      <a href="https://jananadiw.notion.site/Resume-ac9acc651ac846cebba7749cb5016abe" target="_blank"><img width="32" src="~/assets/images/cv2.png"/></a> &nbsp;
+      <a href="https://jananadiw.notion.site/Portfolio-8de7d40e84db48609c0d1fb54aa30d5d" target="_blank"><img width="32" src="~/assets/images/portfolio.png"/></a>
       </span>
     </div>
   </section>

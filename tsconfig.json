@@ -28,12 +28,6 @@
       "@nuxt/types",
       "@types/node",
       "@nuxt/image"
-    ],
-    "extends": "./.nuxt/tsconfig.json",
-    "include": [
-      "env.d.ts",
-      ".nuxt/nuxt.d.ts",
-      "**/*"
     ]
   }
 }

@@ -1,6 +1,4 @@
-import { defineNuxtConfig } from 'nuxt/config'
-
-export default defineNuxtConfig({
+export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Canvas Confetti',
@@ -17,20 +15,19 @@ export default defineNuxtConfig({
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@/assets/sass/main.scss'
+    '~/assets/sass/main.scss'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
-  // components: true,
+  components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
-    '@nuxtjs/stylelint-module',
+    // '@nuxtjs/stylelint-module',
     '@nuxtjs/composition-api/module',
     '@nuxt/image',
-  ],
-  builder: 'webpack'
-})
+  ]
+}
