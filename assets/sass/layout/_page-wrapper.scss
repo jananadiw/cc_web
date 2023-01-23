@@ -1,7 +1,7 @@
 
 .page-wrapper {
     position: absolute;
-    top: 230px;
+    top: 100px;
     left: 0;
     width: 100%;
     background-color: $background-color;
@@ -11,7 +11,7 @@
     .page-content {
       position: relative;
       min-height: calc(100vh - 90px);
-      margin: 0 100px 0 100px;
+      margin: 0 100px 60px 100px;
 
       section{
         display: block;

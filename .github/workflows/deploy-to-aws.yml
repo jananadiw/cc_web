@@ -23,16 +23,16 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Set up node.js enviornment
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v3
 
-      - name: yarn & yarn build
+      - name: npm ci & npm run build
         run: |
-          yarn
-          yarn build
-          yarn generate
+          npm ci
+          npm run build
+          npm run generate
 
       - name: S3 Sync
         uses: jakejarvis/s3-sync-action@v0.5.1
